@@ -1,0 +1,91 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fafafa;
+  color: #111111;
+  font-size: 14px;
+}
+
+.logo-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  color: currentColor;
+  text-transform: uppercase;
+}
+
+.logo-link .logo-word {
+  font-style: italic;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+.nav-list .list-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  color: currentColor;
+}
+
+.nav-list .list-item:hover,
+.nav-list .list-item:focus {
+  color: #fd9222;
+}
+
+.hero {
+  background-color: #1e1823;
+  color: #ffffff;
+}
+
+.hero .title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+
+.button-buy {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #fd9222;
+}
+
+.button-made {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: inherit;
+}
+
+.hero .link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+}
+
+.button-buy:hover,
+.button-buy:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+.button-made:hover,
+.button-made:focus {
+  background-color: #ffffff;
+  color: #fd9222;
+}
+
+.hero .link:hover,
+.hero .link:focus {
+  color: #fd9222;
+}
